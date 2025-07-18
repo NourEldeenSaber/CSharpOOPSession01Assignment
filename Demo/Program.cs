@@ -97,11 +97,15 @@ namespace Demo
             User user1 = new User();
             user1.Id = 10;
             // user1.permession = (Permession) 5;
-            user1.permession = (Permession) 10;
-            Console.WriteLine(user1.permession);
-            
-            user1.permession = user1.permession ^ Permession.Read; // if the [read] found => remove ,  if the [read] not found => add
-            Console.WriteLine(user1.permession);
+            user1.permession = (Permession) 15;
+            // Console.WriteLine(user1.permession);
+
+            // user1.permession = user1.permession ^ Permession.Read; // if the [read] found => remove ,  if the [read] not found => add
+            // Console.WriteLine(user1.permession);
+
+            // user1.permession = user1.permession & Permession.Delete;  // remove permissions ignore [delete]
+            // user1.permession = user1.permession | Permession.Delete;  // if we dont have delete add  [delete]
+
             //user1.permession = Permession.Read | Permession.Write; 
             #endregion
 

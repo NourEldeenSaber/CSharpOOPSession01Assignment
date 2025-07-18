@@ -88,7 +88,24 @@
             /// 
             /// int myPermissions;
             /// myPermissions = (int)Permissions.Read + (int)Permissions.Delete;
-            /// Console.WriteLine((Permissions)myPermissions); 
+            /// Console.WriteLine((Permissions)myPermissions);
+            
+            
+            //Permissions permissions = new Permissions();
+            //permissions = (Permissions)15;
+
+            //Console.WriteLine(permissions);
+            //permissions = permissions ^ Permissions.Read;
+            //Console.WriteLine(permissions);
+
+            //permissions = permissions | Permissions.Read;
+            //Console.WriteLine(permissions);
+
+            //permissions = permissions & Permissions.Read;
+            //Console.WriteLine(permissions);
+
+
+
             #endregion
 
             #region 4- Create an enum called "Colors" with the basic colors (Red, Green, Blue)
