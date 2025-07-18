@@ -17,7 +17,7 @@ namespace Demo.UserDefiendDataTypes
      * 01- Inrernal (Defualt)
      * 02- Public
      */
-    internal class ClassA 
+    public class ClassA 
     {
         /* what you can write inside?
          * 1. Attribute => Member function
@@ -36,6 +36,28 @@ namespace Demo.UserDefiendDataTypes
          * 05- protected internal 
          * 06- public
          */
-        
+
+        //private
+        private int x;
+
+        //protected private 
+        private protected int z;
+
+        //protected
+        protected int y;
+
+        //internal
+        internal int w;
+
+        //protected internal
+        protected internal int n;
+
+        public void SetX(int value)
+        {
+            x = value;
+            y = value;
+            z= value;
+            w = value;
+        }
     }
 }
