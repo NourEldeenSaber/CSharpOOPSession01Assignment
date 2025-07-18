@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.UserDefiendDataTypes
+namespace Demo.Enums
 {
-    internal enum EnumA : byte
+    public enum Grade
     {
-        label01 =10,
-        label02, 
-        label03
-
+        A,B,C,D,E,F
     }
 }
